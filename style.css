@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(244, 244, 244);
+    font-weight: bold;
+}
+
+.page-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 200px;
+
+}
+
+.main-content>img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.main-content video {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    border: 2px solid rgb(64, 62, 62);
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+
+.page-text {
+    margin: 10px 15px 0;
+    text-align: left;
+    font-size: 30px;
+    font-family: Roboto, sans-serif;
+}
+
+.main-content>img[src="shield.png"] {
+    margin: 10px 15px 5px;
+}
+
+.-box {
+    width: 800px;
+    height: 1000px;
+    margin: 75px 15px 30px;
+    background-color: white;
+}
+
+.comment.section {
+    margin: 0;
+    font-size: 23px;
+    font-family: Roboto, sans-serif;
+}
+
+.comment-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+
+.video-thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.video-thumbnails img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
